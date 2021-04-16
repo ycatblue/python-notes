@@ -4,7 +4,7 @@ print(a)
 print(b)
 print(c)
 
-# One Value to Multiple Variables
+# One Value to Multiple Python Variables
 a = b = c = 'laney'
 print(a)
 print(b)
@@ -16,6 +16,6 @@ print(a)
 print(b)
 print(c)
 
-# Output Variables
+# Output Python Variables
 x = 'laney'
 print("hello,my name is" + x)
