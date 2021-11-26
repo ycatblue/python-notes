@@ -28,5 +28,3 @@ d_test = a_test.difference(b_test, c_test)  # 差集
 e_test = a_test.intersection(b_test, c_test)  # 交集
 f_test = a_test.union(b_test, c_test)  # 并集
 print(d_test, e_test, f_test)
-
-test
