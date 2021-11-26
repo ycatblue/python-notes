@@ -22,5 +22,21 @@ print(a_list)
 b_list = ["python", "php", "java", "C#"]
 b_list.remove("python")
 del b_list[2]
+temp = b_list.pop()
 
+print(temp)
 print(b_list)
+
+# （1）获取列表['hello', 'python', 321, "您好"]中索引为1和2的元素并且组成一个新的列表。
+# （2）获取列表['hello', 'python', 321, "您好"]中索引为1、包含1之后的所有元素并且组成一个新的列表。
+# （3）获取列表['hello', 'python', 321, "您好"]中索引为3、不包含3之前的所有元素并且组成一个新的列表。
+
+c_list = ['hello', 'python', '321', '您好']
+d_list = c_list[1:3]
+e_list = c_list[1:]
+f_list = c_list[:3]
+print(d_list)
+print(e_list)
+print(f_list)
+
+
