@@ -24,3 +24,27 @@ print(tree_info(1))
 print(tree_info(2, '2021/12/12'))
 print(tree_info(2, '2021/12/12', 'SZ'))
 print(tree_info(3, '2021/12/12', 'SZ', u1='u1', u2='u2'))
+
+# 匿名函数:实现x与y的乘积。
+lam = lambda x, y: x * y
+print(lam(2, 4))
+
+
+# 定义一个函数并且有一个参数，该参数的建议数据类型为int；然后调用两次该函数，分别传入int、str类型的参数。
+def par_type(numb: int):
+    print(type(numb))
+    return
+
+
+par_type(2)
+par_type('sad')
+
+
+# 定义一个函数并且返回值的建议数据类型为string；然后调用两次该函数，分别使返回值类型为string和int。
+def re_type(a)-> str:
+    return a
+
+
+re_type(print(type('abc')))
+re_type(print(type(4)))
+
