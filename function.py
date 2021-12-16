@@ -41,10 +41,11 @@ par_type('sad')
 
 
 # 定义一个函数并且返回值的建议数据类型为string；然后调用两次该函数，分别使返回值类型为string和int。
-def re_type(a)-> str:
+def re_type(a) -> str:
     return a
 
 
 re_type(print(type('abc')))
 re_type(print(type(4)))
+
 
