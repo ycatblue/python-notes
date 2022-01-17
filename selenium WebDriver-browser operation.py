@@ -27,3 +27,6 @@ driver.forward()
 
 # 刷新浏览器
 driver.refresh()
+
+# 关闭浏览器当前窗口
+driver.close()
